@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F71F62EF1BD5BE4500BDD092 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F71F62EE1BD5BE4500BDD092 /* main.cpp */; };
+		F71F62EF1BD5BE4500BDD092 /* maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F71F62EE1BD5BE4500BDD092 /* maze.cpp */; };
+		F71F62F71BD5BEA600BDD092 /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F71F62F51BD5BEA600BDD092 /* grid.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F71F62EB1BD5BE4500BDD092 /* Project 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 3"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71F62EE1BD5BE4500BDD092 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F71F62EE1BD5BE4500BDD092 /* maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maze.cpp; sourceTree = "<group>"; };
+		F71F62F51BD5BEA600BDD092 /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		F71F62F61BD5BEA600BDD092 /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F71F62ED1BD5BE4500BDD092 /* Project 3 */ = {
 			isa = PBXGroup;
 			children = (
-				F71F62EE1BD5BE4500BDD092 /* main.cpp */,
+				F71F62EE1BD5BE4500BDD092 /* maze.cpp */,
+				F71F62F51BD5BEA600BDD092 /* grid.cpp */,
+				F71F62F61BD5BEA600BDD092 /* grid.h */,
 			);
 			path = "Project 3";
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71F62EF1BD5BE4500BDD092 /* main.cpp in Sources */,
+				F71F62EF1BD5BE4500BDD092 /* maze.cpp in Sources */,
+				F71F62F71BD5BEA600BDD092 /* grid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
